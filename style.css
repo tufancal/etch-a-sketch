@@ -17,6 +17,11 @@ body {
   flex-flow: row wrap;
 }
 
+#buttons {
+  display: flex;
+  gap: 25px;
+}
+
 .square16 {
   display: flex;
   margin: 0;
@@ -29,4 +34,26 @@ body {
 
 .drawing {
   background-color: black;
+}
+
+button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: #e75a7c;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.4s;
+
+  border: 3px solid #9ca3db;
+}
+
+button:hover {
+  color: #f2f5ea;
+  background-color: #e75a7c;
 }
