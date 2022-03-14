@@ -10,6 +10,10 @@ body {
   text-align: center;
 }
 
+body h3 {
+  font-size: 40px;
+}
+
 #container {
   width: 480px;
   height: 480px;
