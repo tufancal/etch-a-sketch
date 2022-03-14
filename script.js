@@ -37,6 +37,8 @@ grid16.addEventListener("click", function () {
   }
   numberOfSquares = 256;
   for (let i = 0; i < numberOfSquares; i++) {
+    myDivs[i].style.backgroundColor = ""; // standard value, so RGB gets resetted
+    myDivs[i].classList.remove("drawing");
     myDivs[i].style.width = "30px";
     myDivs[i].style.height = "30px";
   }
